@@ -1,0 +1,6 @@
+[submodule "deps/openwl"]
+	path = deps/openwl
+	url = https://github.com/dewf/openwl
+[submodule "deps/opendl"]
+	path = deps/opendl
+	url = https://github.com/dewf/opendl

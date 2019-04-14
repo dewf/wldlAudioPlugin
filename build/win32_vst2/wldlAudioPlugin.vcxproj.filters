@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\vst2">
+      <UniqueIdentifier>{6e277086-df1f-4d3f-97a3-898a9367d120}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wldlAudioPlugin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\aeffect.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\aeffectx.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\vstfxstore.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\MyVSTPlugin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wldlAudioPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>Source Files\vst2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>Source Files\vst2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\MyVSTPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
