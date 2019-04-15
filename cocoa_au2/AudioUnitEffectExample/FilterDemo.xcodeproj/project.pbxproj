@@ -20,6 +20,8 @@
 		4C69E18E083402BA00030563 /* CocoaView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C69E18D083402BA00030563 /* CocoaView.nib */; };
 		657729B722653F030066A573 /* libopendl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729B422653D490066A573 /* libopendl.dylib */; };
 		657729B822653F030066A573 /* libopenwl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729AB22653D3E0066A573 /* libopenwl.dylib */; };
+		65C11BF22265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C11BF02265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h */; };
+		65C11BF32265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65C11BF12265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm */; };
 		8BA05A6B0720730100365D66 /* Filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BA05A660720730100365D66 /* Filter.cpp */; };
 		8BA05A6E0720730100365D66 /* FilterVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA05A690720730100365D66 /* FilterVersion.h */; };
 		8BA05AAE072073D300365D66 /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BA05A7F072073D200365D66 /* AUBase.cpp */; };
@@ -131,6 +133,8 @@
 		4C56E93A0804AE2C00DE6468 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter.h; path = Source/AUSource/Filter.h; sourceTree = "<group>"; };
 		657729A522653D3D0066A573 /* openwl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openwl.xcodeproj; path = "../../deps/openwl/build/xcode/6.2 (mavericks 10.9)/openwl.xcodeproj"; sourceTree = "<group>"; };
 		657729AE22653D490066A573 /* opendl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = opendl.xcodeproj; path = "../../deps/opendl/build/xcode/6.2 (mavericks 10.9)/opendl.xcodeproj"; sourceTree = "<group>"; };
+		65C11BF02265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleDemoFilter_OpenWLDL.h; path = Source/CocoaUI/AppleDemoFilter_OpenWLDL.h; sourceTree = "<group>"; };
+		65C11BF12265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppleDemoFilter_OpenWLDL.mm; path = Source/CocoaUI/AppleDemoFilter_OpenWLDL.mm; sourceTree = "<group>"; };
 		8BA05A660720730100365D66 /* Filter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Filter.cpp; path = Source/AUSource/Filter.cpp; sourceTree = "<group>"; };
 		8BA05A670720730100365D66 /* Filter.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; path = Filter.exp; sourceTree = "<group>"; };
 		8BA05A690720730100365D66 /* FilterVersion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FilterVersion.h; path = Source/AUSource/FilterVersion.h; sourceTree = "<group>"; };
@@ -359,6 +363,8 @@
 		8BA4ADCB073EB14C00A2709A /* CocoaUI */ = {
 			isa = PBXGroup;
 			children = (
+				65C11BF02265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h */,
+				65C11BF12265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm */,
 				8BA4ADCE073EB19800A2709A /* AppleDemoFilter_ViewFactory.h */,
 				8BA4ADCF073EB19800A2709A /* AppleDemoFilter_ViewFactory.m */,
 				8BA4ADD0073EB19800A2709A /* AppleDemoFilter_UIView.h */,
@@ -405,6 +411,7 @@
 				3E82145008980DED00D00186 /* CAVectorUnitTypes.h in Headers */,
 				B8E3AF6F17DA7F3F00677CDD /* AUPlugInDispatch.h in Headers */,
 				F77C7D450E254BC700EFE153 /* CABufferList.h in Headers */,
+				65C11BF22265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h in Headers */,
 				2BF526711C4EF73100F7FFCB /* CAHostTimeBase.h in Headers */,
 				F77C7D4C0E254C0D00EFE153 /* AUBaseHelper.h in Headers */,
 			);
@@ -570,6 +577,7 @@
 				8BA05AB4072073D300365D66 /* AUOutputElement.cpp in Sources */,
 				8BA05AB7072073D300365D66 /* AUScopeElement.cpp in Sources */,
 				8BA05AB9072073D300365D66 /* ComponentBase.cpp in Sources */,
+				65C11BF32265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm in Sources */,
 				8BA05AC6072073D300365D66 /* AUEffectBase.cpp in Sources */,
 				8BA05AD2072073D300365D66 /* AUBuffer.cpp in Sources */,
 				8BA05AE50720742100365D66 /* CAAudioChannelLayout.cpp in Sources */,
