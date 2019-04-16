@@ -59,11 +59,14 @@ NSView *AppleDemoFilter_CreateWLViewFor(AudioUnit inAU, NSSize size)
         auto dfvObject = new DemoFilterView;
         
         wlWindow dummyWindow;
-        auto view = wlWindowCreateNSViewOnly(900, 400, dfvObject, &dummyWindow);
+        auto view = wlWindowCreateNSViewOnly((int)size.width, (int)size.height, dfvObject, &dummyWindow);
         if (view) {
-            AUEventListenerRef auEventListener;
-
+            auto mask = NSViewWidthSizable | NSViewHeightSizable | NSViewMinXMargin |
+                            NSViewMaxXMargin | NSViewMinYMargin | NSViewMaxYMargin;
+            [view setAutoresizingMask:mask];
+            
             // attach various callbacks and such
+            AUEventListenerRef auEventListener;
             AUEventListenerCreate(AUEventDispatcher, dfvObject,
                                   CFRunLoopGetCurrent(), kCFRunLoopDefaultMode, 0.05, 0.05,
                                   &auEventListener);

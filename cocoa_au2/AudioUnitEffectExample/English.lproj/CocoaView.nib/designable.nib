@@ -42,6 +42,7 @@
 						<int key="NSvFlags">266</int>
 						<string key="NSFrame">{{0, 265}, {417, 23}}</string>
 						<reference key="NSSuperview" ref="132694569"/>
+						<reference key="NSNextKeyView" ref="461281404"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="377356887">
 							<int key="NSCellFlags">67108864</int>
@@ -71,6 +72,7 @@
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{8, 53}, {400, 204}}</string>
 						<reference key="NSSuperview" ref="132694569"/>
+						<reference key="NSNextKeyView" ref="441127248"/>
 						<string key="NSClassName">AppleDemoFilter_GraphView</string>
 						<string key="NSExtension">NSView</string>
 					</object>
@@ -80,6 +82,7 @@
 						<array class="NSMutableArray" key="NSSubviews"/>
 						<string key="NSFrame">{{8, 42}, {400, 5}}</string>
 						<reference key="NSSuperview" ref="132694569"/>
+						<reference key="NSNextKeyView" ref="83747854"/>
 						<string key="NSOffsets">{0, 0}</string>
 						<object class="NSTextFieldCell" key="NSTitleCell">
 							<int key="NSCellFlags">67108864</int>
@@ -122,6 +125,7 @@
 										<int key="NSvFlags">256</int>
 										<string key="NSFrame">{{119, 7}, {64, 22}}</string>
 										<reference key="NSSuperview" ref="841579975"/>
+										<reference key="NSNextKeyView" ref="1058057787"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="103567755">
 											<int key="NSCellFlags">-1804599231</int>
@@ -202,6 +206,7 @@
 										<int key="NSvFlags">256</int>
 										<string key="NSFrame">{{-6, 9}, {120, 17}}</string>
 										<reference key="NSSuperview" ref="841579975"/>
+										<reference key="NSNextKeyView" ref="839829497"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="851410424">
 											<int key="NSCellFlags">67108864</int>
@@ -233,6 +238,7 @@
 										<int key="NSvFlags">256</int>
 										<string key="NSFrame">{{310, 6}, {58, 22}}</string>
 										<reference key="NSSuperview" ref="841579975"/>
+										<reference key="NSNextKeyView" ref="61683625"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="187314609">
 											<int key="NSCellFlags">-1804599231</int>
@@ -305,6 +311,7 @@
 										<int key="NSvFlags">256</int>
 										<string key="NSFrame">{{225, 8}, {80, 17}}</string>
 										<reference key="NSSuperview" ref="841579975"/>
+										<reference key="NSNextKeyView" ref="49362878"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="473674436">
 											<int key="NSCellFlags">67108864</int>
@@ -323,6 +330,7 @@
 										<int key="NSvFlags">256</int>
 										<string key="NSFrame">{{188, 9}, {22, 17}}</string>
 										<reference key="NSSuperview" ref="841579975"/>
+										<reference key="NSNextKeyView" ref="1032023328"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTextFieldCell" key="NSCell" id="700483800">
 											<int key="NSCellFlags">67108864</int>
@@ -357,10 +365,12 @@
 								</array>
 								<string key="NSFrameSize">{404, 34}</string>
 								<reference key="NSSuperview" ref="83747854"/>
+								<reference key="NSNextKeyView" ref="1052730942"/>
 							</object>
 						</array>
 						<string key="NSFrame">{{8, 6}, {404, 34}}</string>
 						<reference key="NSSuperview" ref="132694569"/>
+						<reference key="NSNextKeyView" ref="841579975"/>
 						<string key="NSOffsets">{0, 0}</string>
 						<object class="NSTextFieldCell" key="NSTitleCell">
 							<int key="NSCellFlags">67108864</int>
@@ -385,13 +395,14 @@
 					</object>
 				</array>
 				<string key="NSFrameSize">{417, 288}</string>
+				<reference key="NSNextKeyView" ref="571411563"/>
 				<string key="NSClassName">AppleDemoFilter_UIView</string>
 				<string key="NSExtension">NSView</string>
 			</object>
 			<object class="NSView" id="814960760">
 				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">256</int>
-				<string key="NSFrameSize">{125, 1}</string>
+				<string key="NSFrameSize">{168, 21}</string>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -646,6 +657,7 @@
 				<string key="34.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="35.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="41.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="42.IBPersistedLastKnownCanvasPosition">{346, 378.5}</string>
 				<string key="42.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="43.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="44.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
