@@ -18,8 +18,12 @@
 		4C56E93B0804AE2C00DE6468 /* Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C56E93A0804AE2C00DE6468 /* Filter.h */; };
 		4C56E93C0804AE2C00DE6468 /* Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C56E93A0804AE2C00DE6468 /* Filter.h */; };
 		4C69E18E083402BA00030563 /* CocoaView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C69E18D083402BA00030563 /* CocoaView.nib */; };
-		657729B722653F030066A573 /* libopendl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729B422653D490066A573 /* libopendl.dylib */; };
-		657729B822653F030066A573 /* libopenwl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729AB22653D3E0066A573 /* libopenwl.dylib */; };
+		6583E83B22655FA5004C9C22 /* AppleDemoFilter_OpenWLDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C11BF02265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h */; };
+		6583E83C22655FA8004C9C22 /* AppleDemoFilter_OpenWLDL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65C11BF12265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm */; };
+		6583E83D22655FED004C9C22 /* libopendl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729B422653D490066A573 /* libopendl.dylib */; };
+		6583E83E22655FED004C9C22 /* libopenwl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729AB22653D3E0066A573 /* libopenwl.dylib */; };
+		65AA4A412265859D0053D229 /* libopendl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729B422653D490066A573 /* libopendl.dylib */; };
+		65AA4A422265859D0053D229 /* libopenwl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657729AB22653D3E0066A573 /* libopenwl.dylib */; };
 		65C11BF22265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C11BF02265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h */; };
 		65C11BF32265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65C11BF12265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm */; };
 		8BA05A6B0720730100365D66 /* Filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BA05A660720730100365D66 /* Filter.cpp */; };
@@ -134,7 +138,7 @@
 		657729A522653D3D0066A573 /* openwl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openwl.xcodeproj; path = "../../deps/openwl/build/xcode/6.2 (mavericks 10.9)/openwl.xcodeproj"; sourceTree = "<group>"; };
 		657729AE22653D490066A573 /* opendl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = opendl.xcodeproj; path = "../../deps/opendl/build/xcode/6.2 (mavericks 10.9)/opendl.xcodeproj"; sourceTree = "<group>"; };
 		65C11BF02265417F004D3BFC /* AppleDemoFilter_OpenWLDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleDemoFilter_OpenWLDL.h; path = Source/CocoaUI/AppleDemoFilter_OpenWLDL.h; sourceTree = "<group>"; };
-		65C11BF12265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppleDemoFilter_OpenWLDL.mm; path = Source/CocoaUI/AppleDemoFilter_OpenWLDL.mm; sourceTree = "<group>"; };
+		65C11BF12265417F004D3BFC /* AppleDemoFilter_OpenWLDL.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = AppleDemoFilter_OpenWLDL.mm; path = Source/CocoaUI/AppleDemoFilter_OpenWLDL.mm; sourceTree = "<group>"; };
 		8BA05A660720730100365D66 /* Filter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Filter.cpp; path = Source/AUSource/Filter.cpp; sourceTree = "<group>"; };
 		8BA05A670720730100365D66 /* Filter.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; path = Filter.exp; sourceTree = "<group>"; };
 		8BA05A690720730100365D66 /* FilterVersion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FilterVersion.h; path = Source/AUSource/FilterVersion.h; sourceTree = "<group>"; };
@@ -164,7 +168,7 @@
 		8BA05AFB072074E100365D66 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		8BA05B01072074F900365D66 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		8BA4ADCE073EB19800A2709A /* AppleDemoFilter_ViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AppleDemoFilter_ViewFactory.h; path = Source/CocoaUI/AppleDemoFilter_ViewFactory.h; sourceTree = "<group>"; };
-		8BA4ADCF073EB19800A2709A /* AppleDemoFilter_ViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = AppleDemoFilter_ViewFactory.m; path = Source/CocoaUI/AppleDemoFilter_ViewFactory.m; sourceTree = "<group>"; };
+		8BA4ADCF073EB19800A2709A /* AppleDemoFilter_ViewFactory.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 30; name = AppleDemoFilter_ViewFactory.m; path = Source/CocoaUI/AppleDemoFilter_ViewFactory.m; sourceTree = "<group>"; };
 		8BA4ADD0073EB19800A2709A /* AppleDemoFilter_UIView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AppleDemoFilter_UIView.h; path = Source/CocoaUI/AppleDemoFilter_UIView.h; sourceTree = "<group>"; };
 		8BA4ADD1073EB19800A2709A /* AppleDemoFilter_UIView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = AppleDemoFilter_UIView.m; path = Source/CocoaUI/AppleDemoFilter_UIView.m; sourceTree = "<group>"; };
 		8BA4ADF4073EB43200A2709A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CocoaView.nib; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6583E83D22655FED004C9C22 /* libopendl.dylib in Frameworks */,
+				6583E83E22655FED004C9C22 /* libopenwl.dylib in Frameworks */,
 				8BA4AE5D073EB7C300A2709A /* Cocoa.framework in Frameworks */,
 				8BA4AE5E073EB7C500A2709A /* AudioUnit.framework in Frameworks */,
 				8BA4AE5F073EB7C600A2709A /* AudioToolbox.framework in Frameworks */,
@@ -196,8 +202,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				657729B722653F030066A573 /* libopendl.dylib in Frameworks */,
-				657729B822653F030066A573 /* libopenwl.dylib in Frameworks */,
+				65AA4A412265859D0053D229 /* libopendl.dylib in Frameworks */,
+				65AA4A422265859D0053D229 /* libopenwl.dylib in Frameworks */,
 				8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */,
 				8BA05AFD072074E100365D66 /* AudioUnit.framework in Frameworks */,
 				8BA05B02072074F900365D66 /* CoreServices.framework in Frameworks */,
@@ -382,6 +388,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6583E83B22655FA5004C9C22 /* AppleDemoFilter_OpenWLDL.h in Headers */,
 				8BA4AE54073EB72300A2709A /* AppleDemoFilter_ViewFactory.h in Headers */,
 				8BA4AE55073EB72300A2709A /* AppleDemoFilter_UIView.h in Headers */,
 				4C56E7E8080482C100DE6468 /* AppleDemoFilter_GraphView.h in Headers */,
@@ -561,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6583E83C22655FA8004C9C22 /* AppleDemoFilter_OpenWLDL.mm in Sources */,
 				8BA4AE56073EB73300A2709A /* AppleDemoFilter_ViewFactory.m in Sources */,
 				8BA4AE57073EB73300A2709A /* AppleDemoFilter_UIView.m in Sources */,
 				4C56E7E9080482C100DE6468 /* AppleDemoFilter_GraphView.m in Sources */,

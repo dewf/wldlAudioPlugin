@@ -9,9 +9,17 @@
 #ifndef __FilterDemo__AppleDemoFilter_OpenWLDL__
 #define __FilterDemo__AppleDemoFilter_OpenWLDL__
 
-#import <Cocoa/Cocoa.h>
-#import <AudioUnit/AUCocoaUIView.h>
+#import <Foundation/Foundation.h>
+#import <AudioUnit/AudioUnit.h>
 
-NSView *AppleDemoFilter_CreateWLViewFor(AudioUnit inAU);
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+NSView *AppleDemoFilter_CreateWLViewFor(AudioUnit inAU, NSSize size);
+    
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* defined(__FilterDemo__AppleDemoFilter_OpenWLDL__) */

@@ -9,6 +9,8 @@ View Factory Class
 #import "AppleDemoFilter_ViewFactory.h"
 #import "AppleDemoFilter_UIView.h"
 
+#include "AppleDemoFilter_OpenWLDL.h"
+
 @implementation AppleDemoFilter_ViewFactory
 
 // version 0
@@ -36,8 +38,9 @@ View Factory Class
     NSView *returnView = uiFreshlyLoadedView;
     uiFreshlyLoadedView = nil;	// zero out pointer.  This is a view factory.  Once a view's been created
                                 // and handed off, the factory keeps no record of it.
-    
+
     return [returnView autorelease];
+//    return [AppleDemoFilter_CreateWLViewFor(inAU, inPreferredSize) autorelease];
 }
 
 @end
