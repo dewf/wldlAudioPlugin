@@ -151,29 +151,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\source\MyVSTPlugin.h" />
-    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\aeffect.h" />
-    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\aeffectx.h" />
-    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\vstfxstore.h" />
-    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\aeffeditor.h" />
-    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffect.h" />
-    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffectx.h" />
     <ClInclude Include="header.h" />
+    <ClInclude Include="MyVSTPlugin.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="VST2_SDK\pluginterfaces\vst2.x\aeffect.h" />
+    <ClInclude Include="VST2_SDK\pluginterfaces\vst2.x\aeffectx.h" />
+    <ClInclude Include="VST2_SDK\public.sdk\source\vst2.x\aeffeditor.h" />
+    <ClInclude Include="VST2_SDK\public.sdk\source\vst2.x\audioeffect.h" />
+    <ClInclude Include="VST2_SDK\public.sdk\source\vst2.x\audioeffectx.h" />
     <ClInclude Include="wldlAudioPlugin.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\source\MyVSTPlugin.cpp" />
-    <ClCompile Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffect.cpp" />
-    <ClCompile Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffectx.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="MyVSTPlugin.cpp" />
+    <ClCompile Include="VST2_SDK\public.sdk\source\vst2.x\audioeffect.cpp" />
+    <ClCompile Include="VST2_SDK\public.sdk\source\vst2.x\audioeffectx.cpp" />
     <ClCompile Include="wldlAudioPlugin.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\deps\opendl\build\msvc\2017\opendl.vcxproj">
+    <ProjectReference Include="..\deps\opendl\build\msvc\2017\opendl.vcxproj">
       <Project>{59c967f3-72e7-4557-b1db-2399f02103c5}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\deps\openwl\build\msvc\2017\openwl.vcxproj">
+    <ProjectReference Include="..\deps\openwl\build\msvc\2017\openwl.vcxproj">
       <Project>{52532b4b-2f4b-4e59-a589-f10c4060cd73}</Project>
     </ProjectReference>
   </ItemGroup>

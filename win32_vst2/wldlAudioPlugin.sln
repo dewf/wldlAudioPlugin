@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wldlAudioPlugin", "wldlAudioPlugin.vcxproj", "{FFF940DF-5C6C-43DC-92F2-07122D5EEE9B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openwl", "..\..\deps\openwl\build\msvc\2017\openwl.vcxproj", "{52532B4B-2F4B-4E59-A589-F10C4060CD73}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openwl", "..\deps\openwl\build\msvc\2017\openwl.vcxproj", "{52532B4B-2F4B-4E59-A589-F10C4060CD73}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opendl", "..\..\deps\opendl\build\msvc\2017\opendl.vcxproj", "{59C967F3-72E7-4557-B1DB-2399F02103C5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opendl", "..\deps\opendl\build\msvc\2017\opendl.vcxproj", "{59C967F3-72E7-4557-B1DB-2399F02103C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

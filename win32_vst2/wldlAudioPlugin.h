@@ -1,4 +1,4 @@
-#include "../../source/MyVSTPlugin.h"
+#include "MyVSTPlugin.h"
 
 #ifdef WLDLAUDIOPLUGIN_EXPORTS
 #define WLDLAUDIOPLUGIN_API __declspec(dllexport)

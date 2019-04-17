@@ -10,7 +10,7 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Source Files\vst2">
-      <UniqueIdentifier>{6e277086-df1f-4d3f-97a3-898a9367d120}</UniqueIdentifier>
+      <UniqueIdentifier>{084c4e05-4b64-4ade-a381-b60a25ee3eac}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -23,26 +23,23 @@
     <ClInclude Include="wldlAudioPlugin.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\aeffect.h">
-      <Filter>Source Files\vst2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\aeffectx.h">
-      <Filter>Source Files\vst2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\source\VST2_SDK\pluginterfaces\vst2.x\vstfxstore.h">
-      <Filter>Source Files\vst2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\aeffeditor.h">
-      <Filter>Source Files\vst2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffect.h">
-      <Filter>Source Files\vst2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffectx.h">
-      <Filter>Source Files\vst2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\source\MyVSTPlugin.h">
+    <ClInclude Include="MyVSTPlugin.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VST2_SDK\pluginterfaces\vst2.x\aeffect.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="VST2_SDK\pluginterfaces\vst2.x\aeffectx.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="VST2_SDK\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="VST2_SDK\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>Source Files\vst2</Filter>
+    </ClInclude>
+    <ClInclude Include="VST2_SDK\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>Source Files\vst2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -52,14 +49,14 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffect.cpp">
-      <Filter>Source Files\vst2</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\source\VST2_SDK\public.sdk\source\vst2.x\audioeffectx.cpp">
-      <Filter>Source Files\vst2</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\source\MyVSTPlugin.cpp">
+    <ClCompile Include="MyVSTPlugin.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VST2_SDK\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>Source Files\vst2</Filter>
+    </ClCompile>
+    <ClCompile Include="VST2_SDK\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>Source Files\vst2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

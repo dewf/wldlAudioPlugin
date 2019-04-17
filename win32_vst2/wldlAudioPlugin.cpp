@@ -3,7 +3,7 @@
 
 #include "header.h"
 #include "wldlAudioPlugin.h"
-#include "../../source/MyVSTPlugin.h"
+#include "MyVSTPlugin.h"
 
 WLDLAUDIOPLUGIN_API AEffect* VSTPluginMain(audioMasterCallback audioMaster)
 {
