@@ -112,7 +112,7 @@ NSView *AppleDemoFilter_CreateWLViewFor(AudioUnit inAU, NSSize size)
         filterView->setWindow(dummyWindow);
         filterView->setAU(inAU);
         
-        return props.outParams.nsView; // the good stuff - what we came here for!
+        return (NSView *)props.outParams.nsView; // the good stuff - what we came here for!
     }
     return NULL;
 }
