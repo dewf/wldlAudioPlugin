@@ -128,8 +128,9 @@ bool MyVSTEditor::open(void * ptr)
 	parentWindow = (HWND)ptr;
 
 	WLWindowProperties props;
-	props.usedFields = WLWindowProp_AttachToNative;
-	props.attachTo = parentWindow;
+	props.usedFields = WLWindowProp_Style | WLWindowProp_NativeParent;
+	props.style = WLWindowStyle_PluginWindow;
+	props.nativeParent = parentWindow;
 
 	window = wlWindowCreate(EDITOR_WIDTH, EDITOR_HEIGHT, "VST Window test", this, &props);
 	wlWindowShow(window);
